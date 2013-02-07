@@ -20,25 +20,14 @@ configs = [
     :key => "options",
     :value => 'grp\tgrp:alt_shift_toggle',
     :type => "array",
-    :append => false
+    :append => true
   },
   {
     :schema => "org.gnome.libgnomekbd.keyboard",
-    :key => "model",
-    :value => "some keyboard",
-    :type => "string"
-  },
-  {
-    :schema => "org.gnome.libgnomekbd.indicator",
-    :key => "show-flags",
-    :value => false,
-    :type => "boolean"
-  },
-  {
-    :schema => "org.gnome.libgnomekbd.indicator",
-    :key => "font-size",
-    :value => 10,
-    :type => "integer"
+    :key => "options",
+    :value => 'altwin\taltwin:swap_lalt_lwin',
+    :type => "array",
+    :append => true
   }
 ]
 
