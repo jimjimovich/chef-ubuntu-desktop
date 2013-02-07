@@ -1,7 +1,7 @@
 # Install some utility packagse
 
-base = %w(keepassx)
+packages = %w(keepassx)
 
-base.each do |pkg|
+packages.each do |pkg|
   package pkg
 end

@@ -1,7 +1,7 @@
 # Install some graphics packages
 
-base = %w(gimp inkscape)
+packages = %w(gimp inkscape)
 
-base.each do |pkg|
+packages.each do |pkg|
   package pkg
 end

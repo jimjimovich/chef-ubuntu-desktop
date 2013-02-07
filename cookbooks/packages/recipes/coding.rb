@@ -1,7 +1,7 @@
 # Install some packages for coding Ruby, etc.
 
-base = %w(build-essential git-core ruby)
+packages = %w(build-essential git-core ruby)
 
-base.each do |pkg|
+packages.each do |pkg|
   package pkg
 end

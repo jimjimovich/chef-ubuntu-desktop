@@ -1,7 +1,7 @@
 # Install some media packages
 
-base = %w(ubuntu-restricted-extras vlc)
+packages = %w(ubuntu-restricted-extras vlc)
 
-base.each do |pkg|
+packages.each do |pkg|
   package pkg
 end
