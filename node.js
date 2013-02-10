@@ -6,6 +6,7 @@
     "recipe[packages::virtualbox]",
     "recipe[packages::graphics]",
     "recipe[packages::media]",
-    "recipe[packages::utilities]"
+    "recipe[packages::utilities]",
+    "recipe[facebook]"
   ]
 }
