@@ -1,12 +1,10 @@
 # Install a separate browser for FB
 
-packages = %w(epiphany-browser)
-
-packages.each do |pkg|
-  package pkg
+package "epiphany-browser" do
+  action :install
 end
 
-# Install Facebook "app" for each user
+# Install a skeleton Facebook "application" for each user with user id between 1000 and 1099
 node['etc']['passwd'].each do |user, data|
   if data['uid'].to_i >= 1000 && data['uid'].to_i < 1100 then
 
