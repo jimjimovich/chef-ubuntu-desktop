@@ -1,6 +1,6 @@
 # Add Facebook as an Epiphany web application
 
-This cookbook will create an Epiphany browser web application for each user on the system.
+This cookbook will create an Epiphany browser web application for each user on the system. This allows you to keep Facebook in a separate browser for security and time management reasons.
 
 
 The MIT License (MIT)
